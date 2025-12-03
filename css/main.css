@@ -1,3 +1,11 @@
+div{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
 .profile {
     display: block;
     margin-left: auto;
@@ -98,4 +106,26 @@
     background-color: white;
     border: none;
     border-radius: 5px;
+
 }
+
+.explain-box{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #cececeee;
+
+    position: relative;
+    top: -40px;
+    box-sizing: border-box;
+}
+
+.form-background{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #cececeee;
+}
+
