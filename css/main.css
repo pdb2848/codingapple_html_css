@@ -1,4 +1,4 @@
-div{
+div, input, textarea{
     box-sizing: border-box;
 }
 
@@ -125,7 +125,38 @@ body{
 .form-background{
     width: 80%;
     margin: auto;
-    padding: 20px;
-    background-color: #cececeee;
+    padding: 30px;
+    background-color: black;
 }
 
+.form-white{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.form-input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.w-50{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+.w-100{
+    width: 100%;
+    padding: 10px;
+}
+
+.yellow-button{
+    padding: 10px;
+}

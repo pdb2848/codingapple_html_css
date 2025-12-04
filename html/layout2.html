@@ -27,31 +27,36 @@
 
 
         <div class="form-background">
-            <h2>contact us</h2>
 
-            <div class="email-box">
-                <p>Your E-mail</p>
+            <div class="form-white">
                 <form>
-                    <input type="email">
+                    <div class="w-100">
+                        <h3>contact us</h3>
+                        <p>Your E-mail</p>
+                        <input type="email" placeholder="email@example.com" class="form-input">
+                    </div>
+                    <div class="w-50">
+                        <p>First Name</p>
+                        <input type="text" class="form-input">
+                    </div>
+                    <div class="w-50">
+                        <p>Last Name</p>
+                        <input type="text" class="form-input">
+                    </div>
+                    <div style="clear: both;"></div>
+
+                    <div class="w-100">
+                        <p>Message</p>
+                        <textarea class="form-input"></textarea>
+                    </div>
+                    <div>
+                        <input id="sub" type="checkbox">
+                        <label for="sub">Subscribe</label>
+                        <button class="yellow-button" type="submit">SEND</button>
+                    </div>
+
                 </form>
             </div>
-
-            <div class="name-box">
-                <div class="first-name-box" style="float: left;">
-                    <p>First name</p>
-                    <form>
-                        <input type="text">
-                    </form>
-                </div>
-
-                <div style="float: right">
-                    <p>Last name</p>
-                    <form>
-                        <input type="text">
-                    </form>
-                </div>
-            </div>
-
         </div>
     </body>
 </html>
