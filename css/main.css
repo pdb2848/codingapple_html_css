@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'nanum';
+    src: url(../font/NanumSquareR.woff);
+}
+
 div, input, textarea{
     box-sizing: border-box;
 }
 
 body{
     margin: 0px;
+    font-family: 'nanum';
 }
 
 .profile {
