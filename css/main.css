@@ -166,3 +166,15 @@ body{
 .yellow-button{
     padding: 10px;
 }
+
+.nav-container{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: coral;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
