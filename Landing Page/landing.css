@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'nanum';
+    src: url("../font/NanumSquareR.woff");
+}
+div, input, textarea {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'nanum';
+    margin: 0;
+}
+
+
+.main-bg {
+    background-color: aquamarine;
+    background-image: linear-gradient(to top, #4e61c0, #589edc);
+    padding: 100px;
+    padding-bottom: 0;
+    position: relative;
+}
+.main-content {
+    color: white;
+    float: left;
+}
+.main-btn {
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+.main-img {
+    width: 500px;
+    float: right;
+
+}
