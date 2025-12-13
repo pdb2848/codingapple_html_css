@@ -29,6 +29,12 @@ body {
     border: 0px;
     border-radius: 5px;
 }
+.main-btn:hover {
+    background-color: #333;
+}
+.main-btn:active {
+    background-color: #222;
+}
 .main-img {
     width: 350px;
     float: right;
@@ -46,6 +52,12 @@ body {
     padding: 15px;
     border: 0px;
     border-radius: 5px;
+}
+.explain-btn:hover {
+    background-color: #333;
+}
+.explain-btn:active {
+    background-color: #222;
 }
 
 
@@ -74,9 +86,17 @@ body {
 }
 
 
-.portfolio-container {
+.portfolio-bg {
     padding: 40px;
     text-align: center;
+}
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+
+}
+.portfolio-container img {
+    width: 45%;
 }
 
 
