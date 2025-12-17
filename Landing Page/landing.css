@@ -18,6 +18,10 @@ body {
     padding-bottom: 0;
     position: relative;
 }
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+}
 .main-content {
     color: white;
     float: left;
@@ -26,8 +30,9 @@ body {
     background-color: #444;
     color: white;
     padding: 15px;
-    border: 0px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .main-btn:hover {
     background-color: #333;
@@ -72,7 +77,8 @@ body {
     justify-content: center;
 }
 .layout-content {
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    width: 25%;
 }
 .product-container i {
     background-color: white;
@@ -91,12 +97,45 @@ body {
     text-align: center;
 }
 .portfolio-container {
-    display: flex;
-    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+.portfolio-text {
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+.portfolio-item {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+.item-bg1 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/portfolio-1-1.jpg);
 
 }
-.portfolio-container img {
-    width: 45%;
+.item-bg2 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/portfolio-2.jpg);
+}
+.item-bg3 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/portfolio-3-1.jpg);
+}
+.item-bg4 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/portfolio-4-1.jpg);
+}
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0px solid white;
+    transition: all 1s;
+}
+.white-box:hover {
+    border: 30px solid white;
 }
 
 
@@ -115,4 +154,33 @@ body {
     margin-right: 40px;
     box-sizing: border-box;
     color: white;
+}
+
+
+@media screen and (max-width : 992px){
+    .main-img {
+        width: 260;
+        display: block;
+        float: none;
+        margin: auto;
+        /* margin-top: 42px; */
+    }
+    .main-content {
+        float: none;
+        /* margin-top: 50px; */
+        text-align: center;
+    }
+
+    .product-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .layout-content {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        float: none;
+        width: 100%;
+    }
 }
