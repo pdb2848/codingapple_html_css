@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'nanum';
+    src: url("../font/NanumSquareR.woff");
+}
+div, input, textarea {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'nanum';
+    margin: 0;
+    background-color: #f7f9fc;
+}
+
+
+.profile-bg {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+.profile-address {
+    color: #6fbaf8;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    gap: 10px;
+}
+.profile-btn {
+    background-color: #6fbaf8;
+    width: 120px;
+}
