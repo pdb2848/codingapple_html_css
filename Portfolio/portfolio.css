@@ -12,33 +12,44 @@ body {
 }
 
 
-.profile-bg {
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    padding: 50px;
+.bg-sky {
+    background-color: #6fbaf8;
 }
-.profile-address {
+.color-sky {
     color: #6fbaf8;
+}
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+
+.profile-address {
     display: inline-flex;
     align-items: center;
     vertical-align: middle;
     gap: 10px;
 }
 .profile-btn {
-    background-color: #6fbaf8;
     width: 120px;
 }
 .profile-info {
-    width: 30%;
     font-size: 14px;
     vertical-align: middle;
+    border-left: 1px solid grey;
+    padding-left: 50px;
 }
 
-
-.main-container {
-    width: 80%;
-    margin: auto;
-    background-color: white;
+.title {
+    margin: 10px;
+}
+.pill {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 100px;
+    padding: 3px 12px 5px 12px;
+    margin-right: 2px;
+    margin-bottom: 5px;
 }
