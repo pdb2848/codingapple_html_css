@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.sh-list li {
+  list-style: none;
+  border: 1px solid #eee;
+  width: 300px;
+  padding: 10px;
+}
+.sh-list .active {
+  background-color: skyblue;
+  color: white;
+}
+
+.well-alert {
+  width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #dff0d8;
+  border-radius: 5px;
+  background-color: #dff0d8;
+}
+
+.heads-alert {
+  width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #d8ecf6;
+  border-radius: 5px;
+  background-color: #d8ecf6;
+}
+
+.warning-alert {
+  width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #fcf8e3;
+  border-radius: 5px;
+  background-color: #fcf8e3;
+}
+
+.row .col-6 {
+  float: left;
+  border: 1px solid grey;
+  width: 50%;
+}
+
+.row .col-4 {
+  float: left;
+  border: 1px solid grey;
+  width: 33.3333333333%;
+}
+
+.row .col-3 {
+  float: left;
+  border: 1px solid grey;
+  width: 25%;
+}/*# sourceMappingURL=test.css.map */
