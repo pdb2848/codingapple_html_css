@@ -107,9 +107,10 @@
                 <div class="white-box mb-5 text-center">
                     <i class="fas fa-burn fa-3x color-sky mb-3"></i>
                     <h6>Find me at Linkedout.com</h6>
-                    <button type="button"
-                                class="profile-btn bg-sky btn btn-primary border-0 mt-3 mb-3">Sign Up</button>
-                    <a href="#"><p class="color-sky">Already a member?</p></a>
+                    <button type="button" class="profile-btn bg-sky btn btn-primary border-0 mt-3 mb-3">Sign Up</button>
+                    <a href="#">
+                        <p class="color-sky">Already a member?</p>
+                    </a>
                 </div>
                 <div>
                     <h5>People You Might Know</h5>
@@ -153,17 +154,28 @@
 
 
 
-    <div class="d-flex main-container gap-3">
-        <div class="bg-white border border-0 rounded shadow-sm w-25">
+    <progress value="0.4"></progress>
+    <style>
+        progress {
+            /*기본 배경은 없애주는게 좋습니다*/
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: white;
+            /* IE10 호환성용 */
+            color: red;
+        }
 
-        </div>
-        <div class="bg-white border border-0 rounded shadow-sm w-50">
+        progress::-webkit-progress-bar {
+            background-color: #eee;
+            border-radius: 2px;
+        }
 
-        </div>
-        <div class="bg-white border border-0 rounded shadow-sm w-25">
-
-        </div>
-    </div>
+        progress::-webkit-progress-value {
+            background-color: red;
+            border-radius: 2px;
+        }
+    </style>
 
 
 
