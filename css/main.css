@@ -271,6 +271,30 @@ body{
 }
 
 
+.ani-text {
+    text-align: center;
+}
+.ani-text:hover {
+    animation-name: move-text;
+    animation-duration: 1s;
+}
+@keyframes move-text {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-100px);
+    }
+    75% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
 @media screen and (max-width: 1200px){
     .main-title {
         font-size: 30px;
