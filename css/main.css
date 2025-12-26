@@ -292,6 +292,86 @@ body{
         transform: translateX(0px);
     }
 }
+.ani-btn {
+    background-color: skyblue;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.ani-btn:hover {
+    animation-name: move-btn;
+    animation-duration: 1s;
+}
+@keyframes move-btn {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-8deg);
+    }
+    50% {
+        transform: rotate(8deg);
+    }
+    75% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.ani-plus:hover {
+    animation-name: move-plus;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes move-plus {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(45deg) scale(2);
+    }
+}
+.menu-bg {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 100%;
+    z-index: 1;
+    color: white;
+    text-align: right;
+    transform: translateX(-250px);
+    transition: all 1s;
+}
+.menu-title {
+    padding: 20px;
+}
+.menu-bg:hover {
+    transform: translateX(0px);
+    text-align: center;
+}
+.menu-bg:hover p {
+    animation-name: move-text;
+    animation-duration: 1s;
+}
+@keyframes move-text {
+    0% {
+        transform: translateX(-250px);
+    }
+    50% {
+        transform: translateX(20px) skewX(-30deg);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
 
 
 
