@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+}
+
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+.menu-bg {
+    position: fixed;
+    left: 0;
+    width: 140px;
+    height: 100%;
+    background-color: #474aae;
+    color: white;
+    padding: 20px;
+
+    text-align: right;
+    transform: translateX(-85px);
+    transition: all 1s;
+}
+
+.menu-bg:hover {
+    transform: translateX(0px);
+    text-align: left;
+}
+
+.menu-icon {
+    /* float: left;
+    line-height: 1.5; */
+    display: inline-block;
+}
+
+.menu-text {
+    /* float: left; */
+    display: inline-block;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+
+.input-animation {
+    width: 150px;
+    transition: width 1s;
+}
+
+.input-animation:focus {
+    width: 500px;
+}
+
+
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    background: #484bb3;
+    position: fixed;
+    z-index: 5;
+    color: white;
+    /*  애니메이션시작화면 */
+    transition: all 0.5s;
+    transform: translateX(-100px);
+}
+
+.sidebar:hover {
+    /*  애니메이션최종화면 */
+    transition: all 0.5s;
+    transform: translateX(0px);
+}
+
+.sidebar div {
+    margin: 12px 0px 0px 15px;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+.sidebar:hover i {
+  transform: translateX(0px);
+} 
